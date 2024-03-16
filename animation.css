@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+
+    border: 150px solid;
+    width: 40px;
+    animation: Ghoom 10s 1;  
+    position: relative;  
+}
+
+@keyframes Ghoom{
+    10%{
+        color: red;
+        top: 0px;
+        left: 0px;
+    }
+    20%{
+        top: 0px;
+        left: 950px;
+    }
+    40%{
+        color: green;
+        top: 950px;
+        left: 950px;
+    }
+    60%{
+        color: pink;
+        top: 950px;
+        left: 0px;
+    }
+    80%{
+        color: chocolate;
+        top: 0px;
+        left: 0px;
+    }
+    100%{
+        color: yellow;
+        top: 475px;
+        left: 475px;
+    }
+}
